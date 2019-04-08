@@ -1,0 +1,57 @@
+body {
+    background: url(./cute\ background.png);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 480px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: darkred; 
+
+}
+
+
+.p {
+    background-color: rgba(0,0,0,.1);
+    text-align: justify;
+    border-radius: 20px;
+    margin-right: 70px;
+    color: papayawhip; 
+    padding: 30px;
+
+}
+
+footer {
+    word-spacing: 5px;
+}
+    
+
+
+
+@media screen and (min-width: 320px) {
+    .footer-text {
+        display: none;
+    }
+
+    .footer-icon {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .footer-icon {
+        display: none;
+    }
+
+    .footer-text {
+        display: block;
+        
+    }
+}
